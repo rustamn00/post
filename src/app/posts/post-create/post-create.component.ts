@@ -2,7 +2,6 @@ import { Component, OnInit, OnDestroy } from "@angular/core";
 import { FormGroup, FormControl, Validators } from "@angular/forms";
 import { ActivatedRoute, ParamMap } from "@angular/router";
 import { Subscription } from "rxjs";
-import { CKEditorModule } from "@ckeditor/ckeditor5-angular";
 
 import { PostsService } from "../posts.service";
 import { Post } from "../post.model";

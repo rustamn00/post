@@ -15,6 +15,8 @@ router.get("", PostController.getPosts);
 
 router.get("/:id", PostController.getPost);
 
-router.delete("/:id", checkAuth, PostController.deletePost);
+// router.delete("/:id", checkAuth, PostController.deletePost);
+
+router.delete("/:id", checkAuth, PostController.softDeletePost);
 
 module.exports = router;
